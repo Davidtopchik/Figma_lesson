@@ -5,12 +5,11 @@ body {
 
 }
 
-button {
+.btn1 {
     background-color: #ffffff54;
     border: 0;
-    width: 480px;
-    height: 150px;
-    font-size: 64px;
+    padding: 20px 44px;
+    font-size: 48px;
 }
 
 .button {
@@ -21,8 +20,13 @@ button {
 
 .button1 {
     display: flex;
-    width: 306px;
-    height: 100px;
+}
+
+.btn-settings {
+    background-color: #ffffff54;
+    border: 0;
+    padding: 30px 94.5px;
+    font-size: 64px;
 }
 
 .section-right {
@@ -33,11 +37,27 @@ button {
     text-align: center;
     padding-left: 25px;
     padding-right: 25px;
+    margin-top: 160px;
 }
 
 .conteiner1 {
     display: flex;
+    
+}
+
+.text1-conteiner1 {
+    font-size: 50px;
+}
+
+.text2-conteiner1 {
+    font-size: 30px;
+}
+
+.section-right-conteiner {
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .conteiner2 {
@@ -48,9 +68,8 @@ button {
 
 .left {
     display: flex;
-    justify-content: space-between;
+    gap: 65px;
     align-items: center;
-    
 }
 
 .right {
@@ -59,8 +78,10 @@ button {
 }
 
 .left1 {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #ffffff;
     border-radius: 15%;
     width: 210px;
@@ -70,9 +91,27 @@ button {
     align-items: center;
 }
 
-.text {
+.text1-conteiner2 {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text2-conteiner2 {
     font-size: 24px;
 }
 
+.div-img {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
 .images {
+    display: flex;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column;
 }
